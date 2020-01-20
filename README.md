@@ -1,6 +1,6 @@
 # SSD in TensorFlow: Traffic Sign Detection and Classification
 ## Overview
-Implementation of [Single Shot MultiBox Detector (SSD)](https://arxiv.org/abs/1512.02325) in TensorFlow, to detect and classify traffic signs. This implementation was able to achieve 40-45 fps on a GTX 1080 with an Intel Core i7-6700K.
+Implementation of [Single Shot MultiBox Detector (SSD)](https://arxiv.org/abs/1512.02325) in TensorFlow, to detect and classify traffic signs. This implementation was able to achieve 50-55 fps on a GTX 1650 with an Intel Core i7-9750H.
 
 *Note this project is still work-in-progress*. The main issue now is model overfitting. I am currently working on pre-training on VOC2012 first, then performing transfer learning over to traffic sign detection.
 
