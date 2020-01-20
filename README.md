@@ -17,7 +17,7 @@ The model was trained on the [LISA Traffic Sign Dataset](http://cvrr.ucsd.edu/LI
 
 ## Dependencies
 * Python 3.5+
-* TensorFlow
+* TensorFlow 
 * Pickle-Python
 * OpenCV-Python
 * Matplotlib (optional)
