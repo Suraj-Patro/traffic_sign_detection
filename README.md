@@ -17,8 +17,8 @@ The model was trained on the [LISA Traffic Sign Dataset](http://cvrr.ucsd.edu/LI
 
 ## Dependencies
 * Python 3.5+
-* TensorFlow v0.12.0
-* Pickle
+* TensorFlow
+* Pickle-Python
 * OpenCV-Python
 * Matplotlib (optional)
 
@@ -55,7 +55,7 @@ Obivously, we are only detecting certain traffic signs in this implementation, w
 * Uses a dynamic scaling factor based on the dimensions of the feature map relative to original image dimensions
 
 ## Performance
-As mentioned above, this SSD implementation was able to achieve 40-45 fps on a GTX 1080 with an Intel Core i7 6700K.
+As mentioned above, this SSD implementation was able to achieve 50-55 fps on a GTX 1650 with an Intel Core i7 9750H.
 
 The inference time is the sum of the neural network inference time, and Non-Maximum Suppression (NMS) time. Overall, the neural network inference time is significantly less than the NMS time, with the neural network inference time generally between 7-8 ms, whereas the NMS time is between 15-16 ms. The NMS algorithm implemented here has not been optimized, and runs on CPU only, so further effort to improve performance can be done there.
 
